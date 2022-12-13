@@ -1,6 +1,5 @@
 ## Web API Quiz
-Module 4 Challenge
-[Link to Github](https://github.com/MartinCespedes/Website_Portfolio)
+[Link to my Github](https://github.com/MartinCespedes/Website_Portfolio)
 
 
 ## :bulb:User Story
