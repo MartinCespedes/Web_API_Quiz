@@ -17,3 +17,64 @@ h3,
 h4 {
     margin-bottom: 1rem;
 }
+
+h1 {
+    font-size: 5.4rem;
+    color:rgb(59, 64, 70);
+    margin-bottom: 5rem;
+}
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* Container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    max-width: 80rm;
+    margin: 0 auto;
+
+}
+
+.container > * {
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.hidden {
+    display: none;
+}
