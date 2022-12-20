@@ -1,6 +1,6 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
-console.log(choices);
+
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -37,29 +37,29 @@ let questions = [
 
     },
 ];
-
-
-
-
-
-
-//Constraints
+//Constraints//
 
 const CORRECT_BONUS = 15;
 const MAX_QUESTIONS = 3;
 
 
-//Start Game Function
+//Start Game Function//
+
 startGame = () => {
-    let questionCounter = 0;
+    questionCounter = 0;
     score = 0;
-    availableQuestions = [...questions]
-    console.log(availableQuestions);
-    getNewQuestions();
+    availableQuestions = [...questions];
+    getNewQuestion();
+  };
+
+getNewQuestion = () => {
+    questionCounter++;
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
+    
+
 };
 
-getNewQuestions = () => {
-    questionCounter++;
-}
 
 startGame();
