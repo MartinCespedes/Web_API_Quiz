@@ -45,7 +45,21 @@ let questions = [
 
 //Constraints
 
-const CORRECT_BONUS = 10;
+const CORRECT_BONUS = 15;
 const MAX_QUESTIONS = 3;
 
-startGame = () => {}
+
+//Start Game Function
+startGame = () => {
+    let questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions]
+    console.log(availableQuestions);
+    getNewQuestions();
+};
+
+getNewQuestions = () => {
+    questionCounter++;
+}
+
+startGame();
