@@ -28,7 +28,7 @@ let questions = [
 
     },
     {
-        question:"Inside which file do we style our webpage?",
+        question:"Inside which file do we use to style our webpage?",
         choice1:"JavaScript file",
         choice2:"HTML file",
         choice3:"CSS file",
@@ -47,3 +47,5 @@ let questions = [
 
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 3;
+
+startGame = () => {}
