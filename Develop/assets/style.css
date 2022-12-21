@@ -134,3 +134,13 @@ h3 {
   padding: 1.5rem;
   width: 100%;
 }
+
+/* Highlight correct || wrong answer */
+
+.correct {
+  background-color: rgb(61, 251, 149);
+}
+
+.incorrect {
+  background-color: rgb(240, 76, 76);
+}
