@@ -1,15 +1,14 @@
 ## Web API Quiz
-[Link to my Github](https://github.com/MartinCespedes/Website_Portfolio)
 
+[Link to my Github](https://github.com/MartinCespedes)
 
-## :bulb:User Story
+## 💡User Story
 
 - AS A coding boot camp student
 - I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 - SO THAT I can gauge my progress compared to my peers
 
-
-## :white_check_mark:Acceptance Criteria
+## ✅Acceptance Criteria
 
 - GIVEN I am taking a code quiz
 - WHEN I click the start button
