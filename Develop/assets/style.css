@@ -199,4 +199,8 @@ input::placeholder {
   color: #c0c0c0;
 }
 
-/* TIME */
+/* TIMER CSS */
+
+#time {
+    width: 50px;
+}

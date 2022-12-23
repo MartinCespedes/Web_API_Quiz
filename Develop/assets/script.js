@@ -51,7 +51,7 @@ startGame = () => {
   getNewQuestion();
 };
 
-let secondsLeft = 25;
+let secondsLeft = 30;
 
 function setTime() {
   // Sets interval in variable
@@ -72,7 +72,7 @@ setTime();
 getNewQuestion = () => {
   //Once all questions are answered will end game//
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
-    return window.location.assign("/gameover.html");
+    return window.location.assign("./gameover.html");
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
