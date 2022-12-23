@@ -8,6 +8,7 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+let timeEl = document.getElementById("time");
 
 let questions = [
   {
@@ -50,6 +51,24 @@ startGame = () => {
   getNewQuestion();
 };
 
+let secondsLeft = 25;
+
+function setTime() {
+  // Sets interval in variable
+  let timerInterval = setInterval(function () {
+    secondsLeft--;
+    timeEl.textContent = secondsLeft;
+
+    if (secondsLeft === 0) {
+      // Stops execution of action at set interval
+      clearInterval(timerInterval);
+      return window.location.assign("./gameover.html");
+    }
+  }, 1000);
+}
+
+setTime();
+
 getNewQuestion = () => {
   //Once all questions are answered will end game//
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
@@ -89,6 +108,8 @@ choices.forEach((choice) => {
 
     if (classToApply === "correct") {
       incrementScore(CORRECT_BONUS);
+    } else {
+      secondsLeft -= 5;
     }
 
     selectedChoice.parentElement.classList.add(classToApply);
