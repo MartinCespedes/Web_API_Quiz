@@ -72,7 +72,12 @@ setTime();
 getNewQuestion = () => {
   //Once all questions are answered will end game//
   if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    localStorage.setItem('mostRecentScore', score)
+
+
+    //Once the game is over, will redirect to the Hiscores//
     return window.location.assign("./gameover.html");
+
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
