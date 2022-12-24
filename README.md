@@ -21,3 +21,9 @@
 - THEN the game is over
 - WHEN the game is over
 - THEN I can save my initials and score
+
+## ![Web Api Quiz](./images/Web_Quiz_1.png)
+
+## ![Web Api Quiz](./images/Web_Quiz_2.png)
+
+## ![Web Api Quiz](./images/Web_Quiz_3.png)
