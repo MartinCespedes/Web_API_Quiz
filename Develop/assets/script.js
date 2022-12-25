@@ -39,7 +39,7 @@ let questions = [
 ];
 //Constraints//
 
-const CORRECT_BONUS = 15;
+const CORRECT_BONUS = 25;
 const MAX_QUESTIONS = 3;
 
 //Start Game Function//
@@ -116,7 +116,7 @@ choices.forEach((choice) => {
     } else {
       secondsLeft -= 5;
     }
-
+      //Timer so questions arent highlighted correct and incorrect at same time//
     selectedChoice.parentElement.classList.add(classToApply);
 
     setTimeout(() => {
