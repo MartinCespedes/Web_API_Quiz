@@ -10,6 +10,7 @@ let questionCounter = 0;
 let availableQuestions = [];
 let timeEl = document.getElementById("time");
 
+
 let questions = [
   {
     question: "How do you print 'Hello World' in the console?",
