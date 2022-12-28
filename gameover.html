@@ -12,7 +12,12 @@
 <body>
     <div class="container">
         <div id="end" class="flex-center flex-column">
-            <h1>Your Highscore is:</h1>
+            <div class="card">
+                <h2 id="">Last HighScore</h2>
+                <p id="highScoresName"><strong>Name:</strong> <span id="user-name"></span></p>
+                <p id="mostRecentHighScore"><strong>HighScore:</strong> <span id="mostRecentScore"></span></p>
+              </div>
+            <h1>Your Highscore is</h1>
             <h1 id="finalScore"></h1>
             <form>
                 <input type="text" name="username" id="username" placeholder="username" />
@@ -22,8 +27,10 @@
             </form>
             <a href="game.html" class="button">Play Again?</a>
             <a href="index.html" class="button">Home</a>
+           
 
         </div>
+        
     </div>
 
     <script src="./Develop/hiscores.js"></script>
