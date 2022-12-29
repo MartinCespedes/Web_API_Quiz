@@ -4,6 +4,8 @@ const finalScore = document.getElementById('finalScore');
 const mostRecentScore = localStorage.getItem('mostRecentScore');
 
 
+
+
 const hiScores = JSON.parse(localStorage.getItem('hiScores')) || [];
 const MAX_HI_SCORES = 5;
 
