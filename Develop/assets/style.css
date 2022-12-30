@@ -202,42 +202,7 @@ input::placeholder {
 /* TIMER  */
 
 #time {
-    font-size: 50px;
-    padding-top: 2.7rem;
-    color:#000000;
+  font-size: 50px;
+  padding-top: 2.7rem;
+  color: #000000;
 }
-
-
-/* HI SCORES LIST  */
-
-.card {
-  background-color: #fff;
-    border: 1.2rem solid #eceff1;
-    border-radius: 8px;
-    box-shadow: rgb(60 64 67 / 30%) 0 1px 2px 0, rgb(60 64 67 / 15%) 0 1px 3px 1px;
-    margin: 2%;
-    margin-top: 80px;
-    padding: 20px;
-    width: 50%;
-    overflow: hidden;
-    position: relative;
-    float: left;
-  box-shadow: 0 0.1rem 1.4rem 0 #721172;
-}
-
-#highScoresName {
-  font-size: 2rem;
-  
-}
-
-#mostRecentHighScore {
-  font-size:2rem;
-}
-
-
-
-
-
-
-
-   
