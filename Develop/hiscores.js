@@ -27,5 +27,5 @@ saveHighScores = (e) => {
   hiScores.splice(5);
 
   localStorage.setItem("hiScores", JSON.stringify(hiScores));
-  window.location.pathname = "./index.html";
+  window.location.pathname = "./Web_API_Quiz/index.html";
 };
