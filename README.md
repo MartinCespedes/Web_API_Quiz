@@ -1,6 +1,6 @@
 ## Web API Quiz
 
-[Link to my Github](https://github.com/MartinCespedes)
+[Live Link to Application](https://martincespedes.github.io/Web_API_Quiz/)
 
 ## 💡User Story
 
