@@ -16,7 +16,9 @@
 
 ## Description
 
-This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. This week’s coursework will teach you all the skills you need to succeed in this assignment.
+- This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that I will write write.
+
+- It will have a clean, polished, and responsive user interface. This week’s coursework will show me all the skills I need to succeed in this assignment.
 
 ## 💡User Story
 
