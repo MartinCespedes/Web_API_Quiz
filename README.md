@@ -2,8 +2,6 @@
 
 [Live Link to Application](https://martincespedes.github.io/Web_API_Quiz/)
 
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-
 ## Contents
 
 [Description](#description)
@@ -51,3 +49,10 @@ THEN I can save my initials and score
 ## ![Web Api Quiz](./images/Web_Quiz_2.png)
 
 ## ![Web Api Quiz](./images/Web_Quiz_3.png)
+
+
+## 
+
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+
